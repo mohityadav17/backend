@@ -1,0 +1,21 @@
+{
+  "name": "chaibackend",
+  "version": "1.0.0",
+  "description": "learning how to deploy app",
+  "keywords": [
+    "node",
+    "app",
+    "chaibackend"
+  ],
+  "license": "ISC",
+  "author": "Mohit Yadav",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
