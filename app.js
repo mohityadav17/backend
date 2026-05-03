@@ -48,7 +48,7 @@ app.get('/twitter',(req,res)=>{
 app.get('/login',(req,res)=>{
     res.send('<h1>Login unsuccessful</h1>')
 })
-app.get('/github',()=>{
+app.get('/github',(req,res)=>{
   res.json(github)
 })
 app.listen(process.env.PORT, () => {
